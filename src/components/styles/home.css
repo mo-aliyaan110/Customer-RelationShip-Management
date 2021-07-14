@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#parent{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+#parent .firstchild{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 250px;
+    border: 1px solid black;
+    
+    margin: 5px 0;
+    background-image:  linear-gradient( 263deg, rgba(255,255,255,.0) 44%  , rgba(255, 255, 255, 1)36%), url(./img/Coder-Hero.gif);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 6px 10px 20px rgba(0, 0, 0, .4);
+    
+    
+}
+#parent .firstchild .containerr2{
+    position: relative;
+    display: block;
+    width: 350px;
+    left: 30px;
+    top: 10px;
+    line-height: 16px;
+    
+}
+#parent .firstchild span{
+    position: relative;
+    display: block;
+    left: 360px;
+    top: -20px;
+    color: green;
+    margin-top: 10px;
+
+}
+#parent .secondchild{
+    position: relative;
+    display: block;
+    box-shadow:2px 10px 20px rgba(0, 0, 0, .4);
+    justify-content:right;
+    align-items:center;
+    width: 800px;
+    height: 250px;
+    border: 1px solid black;
+    top: 40px;
+    margin: 70px 0;
+    background-image:  linear-gradient( 97deg, rgba(255,255,255,.0) 45%  , rgba(255, 255, 255, 1)45%),url(./img/Coder-Hero.gif);
+    background-size: 100% 100%;
+    background-size: contain;
+    
+
+}
+#parent .secondchild span{
+    position: relative;
+    float: right;
+    margin-right: 15px;
+
+    color: green;
+    margin-top: 2px;
+}
+#parent .secondchild .containerr{
+    position: relative;
+    display: block;
+    width: 390px;
+    left: 400px;
+    top: 10px;
+    margin-top: 2px;
+    line-height: 16px;
+    font-weight: lighter;
+}
+#parent .secondchild .containerr .img{
+    width: 40px;
+    display: block;
+    
+    
+    height: 20px;
+    font-weight: bolder;
+}
+#parent .firstchild .containerr2 .img{
+    width: 40px;
+    display: block;
+    
+    
+    height: 25px;
+    font-weight: bolder;
+}
+#parent .secondchild .containerr h3{
+    font-weight: lighter;
+    line-height: 20px;
+}
+#parent .secondchild .containerr h4{
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 34px;
+    color: rgb(163, 157, 157);
+}
+#parent .firstchild .containerr2 h4{
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 34px;
+    color: rgb(163, 157, 157);
+}
+#parent .firstchild .containerr2 h3{
+    font-weight: lighter;
+    line-height: 20px;
+}

@@ -1,16 +1,23 @@
 import React from 'react';
-import Header from './Header';
-import {BrowserRouter, Route, Link } from 'react-router-dom';
+import LoginBtn from './Loginbtn'
+
+import Home from './Home';
+import InsideLogin from './InsideLogin';
+import {BrowserRouter, Route,  } from 'react-router-dom';
+import Registration from './Registration';
+import Customers from './Customers';
 
 
 function Routing() {
     return (
         <div>
             <BrowserRouter>
-            <Header/>
-                {/* <Route exact path='/' component={Home}/>
+            
+                <Route exact path='/' component={Home}/>
+                <Route exact path='/login' component={LoginBtn}/>
+                <Route exact path='/insidelogin' component={InsideLogin}/>
+                <Route exact path='/registration' component={Registration}/>
                 <Route exact path='/customers' component={Customers}/>
-                <Route exact path='/registration' component={Register}/> */}
             </BrowserRouter>
         </div>
     )

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const context = React.createContext()
-const provider =  context.Provider;
-const consumer = context.Consumer;
+const Context = React.createContext()
+const Logprovider =  Context.Provider;
+const Logconsumer = Context.Consumer;
 
-export {provider, consumer}
+export {Logprovider, Logconsumer}
 
 export default Context;
 
